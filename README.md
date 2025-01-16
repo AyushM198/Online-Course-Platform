@@ -74,7 +74,7 @@ A platform for online courses with features like user authentication, course man
     ```bash
     npm run dev
     ```
-    The frontend will be available on [http://localhost:3000](http://localhost:3000).
+    The frontend will be available on [http://localhost:3000](http://localhost:5173).
 
 ---
 
