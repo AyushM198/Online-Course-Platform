@@ -1,0 +1,43 @@
+/* .interactive-container {
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.interactive-container:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+.interactive-element img {
+  transition: transform 0.3s ease;
+}
+
+.interactive-container:hover .interactive-element img {
+  transform: scale(1.1); 
+}
+.w-90{
+  width:"30rem"
+} */
+
+
+.interactive-container {
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-size: cover; /* Ensures the background image fills the container */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.interactive-container:hover {
+  transform: scale(1.05); /* Slight zoom-in effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+/* Style for the overlay image */
+.overlay-image {
+  transition: transform 0.3s ease;
+}
+
+.overlay-image:hover {
+  transform: scale(1.1); /* Zoom effect for the overlay image on hover */
+}
